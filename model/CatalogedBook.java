@@ -119,7 +119,18 @@ public class CatalogedBook {
 	
 	
 	
-	public void getDescription() {
+	public boolean getDescription() {
+		this.returnDetails();
+		return this.isAvailable();
+	}
+	
+	
+	public void viewDetails() {
+		this.returnDetails();
+	}
+	
+	
+	public void returnDetails() {
 		System.out.println("Details about: " + this.getTitle());
 		System.out.println(this.getDesc());
 		System.out.println("Category: " + this.getCategory());

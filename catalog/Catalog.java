@@ -12,8 +12,6 @@ public class Catalog {
 	public static final String BOOKS_PATH = "src/Book Catalog.csv";
 	public static final ArrayList<CatalogedBook> CATALOG = browseCatalog();
 	
-	
-	
 	public static ArrayList<CatalogedBook> browseCatalog(){
 		
 		ArrayList<CatalogedBook> catalog = new ArrayList<CatalogedBook>();
